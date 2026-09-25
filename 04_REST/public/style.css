@@ -1,0 +1,100 @@
+/* h1{
+    color:maroon;
+}
+.post{
+    background-color: blanchedalmond;
+}
+.user{
+    font-style:italic;
+} */
+
+/* Body Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8f9;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* App Title */
+h1 {
+    color: #b92b27; /* Quora Red */
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* Post Card Box */
+.post {
+    background: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Username */
+.user {
+    margin: 0 0 8px 0;
+    color: #333;
+    font-size: 1.05rem;
+}
+
+/* Post Content */
+.content {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Links & Action Buttons */
+.post a {
+    text-decoration: none;
+    color: #2b6cb0; /* Soft Blue */
+    font-size: 0.9rem;
+    margin-right: 15px;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Delete Form & Button */
+.post form {
+    display: inline;
+}
+
+.post button {
+    background: none;
+    border: none;
+    color: #cb1111; /* Soft Red */
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0;
+}
+
+.post button:hover {
+    text-decoration: underline;
+}
+
+/* Create New Post Link */
+a[href="/posts/new"] {
+    display: inline-block;
+    background-color: #b92b27;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+a[href="/posts/new"]:hover {
+    background-color: #9e221f;
+}
