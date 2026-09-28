@@ -24,3 +24,7 @@
 1790603889944 : /about New Request Received
 1790607966684 : /about New Request Received
 1790608243218 : /search New Request Received
+1790609169266 : GET /search New Request Received
+1790609226842 : GET / New Request Received
+1790609228973 : GET /about New Request Received
+1790609325448 : GET /search New Request Received
